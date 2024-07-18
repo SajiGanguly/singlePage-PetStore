@@ -1,18 +1,13 @@
-import React from "react";
-import Dashboard from "./components/MyDashboard";
-import Sidebar from "./components/Sidebar";
+import logo from "./logo.svg";
+import "./App.css";
+import Layout from "./Pages/LandingPage";
 
-const App = () => {
-  const appStyle = {
-    display: "flex",
-  };
-
+function App() {
   return (
-    <div style={appStyle}>
-      <Sidebar />
-      <Dashboard />
+    <div className="App">
+      <Layout />
     </div>
   );
-};
+}
 
 export default App;
