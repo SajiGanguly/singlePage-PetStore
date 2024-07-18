@@ -160,7 +160,7 @@ function DashboardSection() {
   return (
     <>
       <img
-        src="/assets/images/Frame 15.svg"
+        src="/assets/Images/Frame 15.svg"
         alt="User Avatar"
         style={{ display: "block", margin: "0 auto 30px", borderRadius: "20%" }}
       />
