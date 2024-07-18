@@ -81,8 +81,8 @@ function BookingsSection() {
         padding: "10px",
         flex: 1,
         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-        maxHeight: "750px",
-        overflow: "auto",
+        maxHeight: "790px",
+
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -94,16 +94,35 @@ function BookingsSection() {
         <img
           src="/assets/Images/Frame 222.svg"
           alt=""
-          style={{ marginBottom: "10px", width: "30%" }}
+          style={{ marginBottom: "10px", width: "45%" }}
         />
         <img
           src="/assets/Images/Today (16).svg"
           alt=""
-          style={{ marginBottom: "10px", width: "20%" }}
+          style={{ marginBottom: "10px", width: "41%" }}
         />
       </div>
-      <div className="bookings-stats">
+      <img
+        src="/assets/Images/You’ve 30 pending booking..svg"
+        alt="pending text"
+        style={{ display: "flex", justifyContent: "flex-start" }}
+      ></img>
+      <br></br>
+      <div
+        className="bookings-stats"
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          gap: "20px",
+        }}
+      >
         <img src="/assets/Images/Mask group.svg" alt="" />
+        <img
+          src="/assets/Images/Rectangle 4478.svg"
+          alt=""
+          img="/assets/Images/Rectangle 4480.svg"
+          style={{ color: "#ddd", filter: "hue-rotate(240deg)" }}
+        ></img>
       </div>
     </div>
   );
@@ -162,7 +181,7 @@ function DashboardSection() {
       <img
         src="/assets/Images/Frame 15.svg"
         alt="User Avatar"
-        style={{ display: "block", margin: "0 auto 30px", borderRadius: "20%" }}
+        style={{ display: "block", margin: "0 auto 10px", borderRadius: "20%" }}
       />
       <section style={dashboardStyle}>
         <Header />
