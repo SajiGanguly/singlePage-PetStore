@@ -103,7 +103,7 @@ function BookingsSection() {
         />
       </div>
       <img
-        src="/assets/Images/You’ve 30 pending booking.svg"
+        src="/assets/Images/Pending booking.svg"
         alt="pending text"
         style={{ display: "flex", justifyContent: "flex-start" }}
       ></img>
